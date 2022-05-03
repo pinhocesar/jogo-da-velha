@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+    color: #444;
+}
+
+.quadrado {
+    text-align: center;
+    width: 70px;
+    background-color: #EEE;
+    color: #EEE;
+    display: inline-block;
+    padding: 30px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.jogador, .vencedor {
+    font-size: 20px;
+    margin-top: 6px;
+    color: #444;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #CCC;
+    color: #444;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #AAA;
+    color: #EEE;
+}
